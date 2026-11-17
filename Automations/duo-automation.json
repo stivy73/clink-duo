@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "shortcutBindings": {},
+  "rules": [
+    {
+      "schemaVersion": 1,
+      "kind": "state",
+      "id": "777da514-7cbc-468b-bcae-b4b4fe2bde37",
+      "actions": [
+        {
+          "target": "layout.split",
+          "kind": "set",
+          "id": "089827a6-d14a-488a-a8bc-b2a4c2402d57",
+          "version": 1,
+          "value": false
+        },
+        {
+          "id": "206d47db-17b3-4873-9a37-69d76848dc3b",
+          "kind": "set",
+          "target": "text.suggestions_height",
+          "value": 32,
+          "version": 1
+        },
+        {
+          "id": "8356335b-2fa6-4bee-a1be-ff43e5c1af75",
+          "kind": "set",
+          "target": "settings.suggestionTopPadding",
+          "value": 0,
+          "version": 1
+        }
+      ],
+      "trigger": "keyboard.open",
+      "enabled": false,
+      "name": "Duo — Standard keyboard",
+      "conditions": {
+        "items": [],
+        "mode": "all"
+      },
+      "cooldownSeconds": 1,
+      "triggerVersion": 1
+    },
+    {
+      "triggerVersion": 1,
+      "id": "d2df2d8d-02d2-47bd-815f-d974ebbef39d",
+      "trigger": "keyboard.open",
+      "actions": [
+        {
+          "kind": "set",
+          "version": 1,
+          "target": "layout.split",
+          "value": false,
+          "id": "65597b12-3847-4a1c-bf84-e6066da08110"
+        },
+        {
+          "kind": "set",
+          "version": 1,
+          "target": "keys.height",
+          "value": 48,
+          "id": "8b9a401b-1354-4272-b897-d66512e67330"
+        },
+        {
+          "kind": "set",
+          "version": 1,
+          "target": "keys.long_press_hint",
+          "value": "off",
+          "id": "7e27bb05-820d-4792-9a19-fdf833d15cee"
+        },
+        {
+          "kind": "set",
+          "version": 1,
+          "target": "layout.number_row",
+          "value": false,
+          "id": "6e9360b7-bcce-4b60-9684-9a5011fee437"
+        },
+        {
+          "kind": "set",
+          "version": 1,
+          "target": "text.suggestions_height",
+          "value": 32,
+          "id": "f155938d-1535-4bf6-a351-7413ffa4b922"
+        },
+        {
+          "kind": "set",
+          "version": 1,
+          "target": "settings.suggestionTopPadding",
+          "value": 0,
+          "id": "6218cf88-92a5-4f2d-8062-68af5bc6248f"
+        }
+      ],
+      "enabled": false,
+      "name": "Duo — Open display (link layout and theme)",
+      "conditions": {
+        "items": [
+          {
+            "hysteresis": 24,
+            "value": 700,
+            "version": 1,
+            "id": "8af97e6b-001d-478a-9511-06cc580739fd",
+            "comparison": "atLeast",
+            "upper": null,
+            "field": "interface.width"
+          }
+        ],
+        "mode": "all"
+      },
+      "cooldownSeconds": 1,
+      "kind": "state",
+      "schemaVersion": 1
+    }
+  ]
+}

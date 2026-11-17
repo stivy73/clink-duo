@@ -1,0 +1,29 @@
+name: Publish Clink packs
+on:
+  push:
+    branches: [main]
+    paths: ['Layouts/**', 'Themes/**', 'Automations/**', 'tools/**', '.github/workflows/release.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: clink-release
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build verified manifest
+        id: manifest
+        run: echo "tag=$(python3 tools/build-manifest.py)" >> "$GITHUB_OUTPUT"
+      - name: Publish immutable release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.manifest.outputs.tag }}
+        run: |
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release edit "$TAG" --latest
+          else
+            gh release create "$TAG" Layouts/*.clinklayout Themes/*.clinktheme Automations/*.json manifest.json --target "$GITHUB_SHA" --title "Clink Duo packs" --notes "Duo split layout, graphite theme, and portable adaptive automation. See README for setup." --latest
+          fi

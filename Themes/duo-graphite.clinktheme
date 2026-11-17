@@ -1,0 +1,83 @@
+{
+  "id": "duo-graphite",
+  "name": "Duo Graphite",
+  "source": "custom",
+  "material": "solid",
+  "isDark": true,
+  "background": {
+    "r": 0.13333333333333333,
+    "g": 0.13333333333333333,
+    "b": 0.12549019607843137,
+    "a": 1
+  },
+  "keyFill": {
+    "r": 0.28627450980392155,
+    "g": 0.28627450980392155,
+    "b": 0.2784313725490196,
+    "a": 1
+  },
+  "keyText": {
+    "r": 1,
+    "g": 1,
+    "b": 1,
+    "a": 1
+  },
+  "specialKeyFill": {
+    "r": 0.28627450980392155,
+    "g": 0.28627450980392155,
+    "b": 0.2784313725490196,
+    "a": 1
+  },
+  "specialKeyText": {
+    "r": 1,
+    "g": 1,
+    "b": 1,
+    "a": 1
+  },
+  "accent": {
+    "r": 0.7411764705882353,
+    "g": 0.7411764705882353,
+    "b": 0.7176470588235294,
+    "a": 1
+  },
+  "keySurfaceMaterial": "normal",
+  "keyCapShape": "rect",
+  "keyFontDesign": "default",
+  "keyFontWeight": "regular",
+  "glyphPosition": "center",
+  "solidKeyShadowOpacity": 0,
+  "groupPaint": {
+    "letters": {
+      "cornerRadius": 14,
+      "glyphPosition": "center"
+    },
+    "numbers": {
+      "cornerRadius": 14,
+      "glyphPosition": "center"
+    },
+    "punctuation": {
+      "cornerRadius": 14,
+      "glyphPosition": "center"
+    },
+    "modifiers": {
+      "cornerRadius": 14,
+      "glyphPosition": "center"
+    },
+    "shift": {
+      "cornerRadius": 14,
+      "glyphPosition": "center"
+    },
+    "backspace": {
+      "cornerRadius": 14,
+      "glyphPosition": "center"
+    },
+    "return": {
+      "cornerRadius": 14,
+      "glyphPosition": "center"
+    },
+    "space": {
+      "cornerRadius": 14,
+      "glyphPosition": "center"
+    }
+  }
+}

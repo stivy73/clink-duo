@@ -1,0 +1,31 @@
+{
+  "version": "duo-c870b986404bc5461e73",
+  "layouts": [
+    {
+      "id": "duo-split",
+      "name": "Duo Split — Apple-inspired",
+      "version": "duo-c870b986404bc5461e73",
+      "platform": "ios",
+      "asset": {
+        "path": "duo-split.clinklayout",
+        "url": "https://github.com/stivy73/clink-duo/releases/download/duo-c870b986404bc5461e73/duo-split.clinklayout",
+        "sha256": "c90c9d85402eee2894cf64db4b43589888f22c48c195770bb425f9a8459dc6d8",
+        "byteCount": 84944
+      }
+    }
+  ],
+  "themes": [
+    {
+      "id": "duo-graphite",
+      "name": "Duo Graphite",
+      "version": "duo-c870b986404bc5461e73",
+      "platform": "ios",
+      "asset": {
+        "path": "duo-graphite.clinktheme",
+        "url": "https://github.com/stivy73/clink-duo/releases/download/duo-c870b986404bc5461e73/duo-graphite.clinktheme",
+        "sha256": "0304a4cf50565f84fb67e7b2e6e2a17b9e7a37a5e688b586df7bc381af365592",
+        "byteCount": 1604
+      }
+    }
+  ]
+}
