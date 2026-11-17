@@ -88,7 +88,7 @@
         }
       ],
       "enabled": false,
-      "name": "Duo — Open display (link layout and theme)",
+      "name": "Duo — Open display (link profile, layout and theme)",
       "conditions": {
         "items": [
           {

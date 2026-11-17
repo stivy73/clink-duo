@@ -8,26 +8,35 @@ Add **`stivy73/clink-duo`** to Clink's repositories. The repository is public an
 
 - **Duo Split — Full-width space**: QWERT / YUIOP, ASDFG / GHJKL, and ZXCV / VBNM, with G and V duplicated for thumb reach. The space bar fills the former blank area on the right, up to Search/Return, on the letter, number and symbol pages. Letter positions and key dimensions are unchanged by this update. Central spacing is built into the layout; keep Clink's native Split keyboard option off when using it.
 - **Duo Graphite**: dark solid keycaps, centered labels and rounded corners. It follows the current Clink rendering capabilities and is an approximation of the reference, not an exact copy of Apple's keyboard.
-- **Duo Stivy** (optional profile): a snapshot of the author's saved Clink preferences and custom layouts. It keeps QWERTY Copy as the normal base layout and includes the updated Duo layout. Applying a profile replaces preferences: skip it when you only want to update the space bar. Theme and automation bindings are configured separately.
+- **Duo Stivy**: the editable base profile for the closed display, with the author's current 6-point key spacing, 11-point row spacing and 45-point key height. It keeps QWERTY Copy as its normal layout.
+- **Duo Aperto**: a separate profile for the open-display rule, with 12-point key spacing and 16-point row spacing. The rule then applies the Duo split layout, 48-point key height and graphite theme. Both profile packs include the current normal and Duo layouts; unused older Duo layout copies are excluded to stay within Clink's repository size limit.
 
-Installing a pack does not configure the adaptive rules for you. Existing keyboard settings and automation bindings should be kept until you choose to replace them.
+Installing a pack does not configure the adaptive rules for you. Importing a profile applies its preferences, so save your existing setup first. Theme and automation bindings are configured separately.
 
 ## Adaptive automation
 
 Download [duo-automation.json](https://github.com/stivy73/clink-duo/releases/latest/download/duo-automation.json) from the latest release and import it in Clink's Automations settings. The repository catalog lists themes and layouts; the automation is a separate release attachment.
 
 1. Import/install the layout and theme into your library. If Clink applies them immediately, restore your usual saved setup before configuring the rules.
-2. In **Duo — Open display (link layout and theme)**, add the Layout action and choose **Duo Split — Full-width space**; add the Theme action and choose **Duo Graphite**. Imported files may get new local identities, so the portable automation omits those references. In Appearance → Themes, turn automatic theme selection off if it overrides the rule's theme.
+2. In **Duo — Open display (link profile, layout and theme)**, add the **Duo Aperto** action from the Profiles category and move it to the **first position** using its up arrow. Then add the Layout action and choose **Duo Split — Full-width space**; add the Theme action and choose **Duo Graphite**. Keep the existing size and toolbar actions after the profile too. Order matters: applying a profile after the Layout action replaces the selected layout. Imported files may get new local identities, so the portable automation omits profile, layout and theme references. In Appearance → Themes, turn automatic theme selection off if it overrides the rule's theme.
 3. Keep **Duo — Standard keyboard** first and the open-display rule after it. Enable both and disable older rules that control the same settings.
 4. The open-display rule uses a width threshold of 700 points with 24-point hysteresis, 48-point key height and a 32-point suggestions bar. Below the threshold, the saved key dimensions return and the base rule keeps the standard keyboard and compact bar.
 
 The trigger measures available width, not hinge posture. A narrow app window on an unfolded display, or a closed phone in landscape, may behave differently from physical open/closed state.
 
-The corrected rule was activated on Clink 2.1.0 (283), with open/closed keyboard appearances observed on the author's physical Duo using Apple developer tools. The portable version intentionally omits device-local theme/layout references, which must be selected after installation. In this Clink version, `keys.long_press_hint` uses the string `"off"`, not Boolean `false`.
+The corrected rule was activated on Clink 2.1.0 (283), with open/closed keyboard appearances observed on the author's physical Duo using Apple developer tools. The portable version intentionally omits device-local profile/theme/layout references, which must be selected after installation. In this Clink version, `keys.long_press_hint` uses the string `"off"`, not Boolean `false`.
+
+## Edit the closed keyboard independently
+
+Keep **Duo Stivy** selected as the saved base profile (on the author's phone its existing name is **Duo - impostazioni Stivy**). Edit key size, spacing and the other profile-supported settings in Clink as usual, with profile Autosave enabled. The open-display rule temporarily applies the separate **Duo aperto** profile, then the layout and explicit overrides. When the available width falls below the threshold, that contribution ends and your saved base preferences return. The rule does not select or rewrite the saved base profile.
+
+To change the open keyboard, edit **Duo aperto**, then reselect your normal base profile before finishing. Settings explicitly supplied by the rule, such as its 48-point key height and 32-point suggestions bar, must be edited in the rule. The normal rule also keeps the suggestions bar at 32 points with no top padding; those two toolbar values remain rule-controlled.
+
+The separated configuration was checked on the physical Duo: the open display used the split layout with extended space bar while the closed display returned to the normal keyboard. Changes on the phone remain local until you export and publish another release.
 
 ## Space bar update — 17 November 2026
 
-This update preserves the author's own settings, including 12-point key spacing, 16-point row spacing, a 0.75 hitbox scale, and 21-point bottom padding. It adds no vertical spacing changes. The only change to the existing open-display rule is its Layout selection; the normal base keyboard and the other rule actions are retained.
+The earlier space-bar-only update preserved the author's then-current 12-point key spacing, 16-point row spacing, 0.75 hitbox scale and 21-point bottom padding. The subsequent profile separation described above preserves the newer closed-display preferences, including 6/11-point spacing, 45-point key height and zero bottom padding. The open profile has independent 12/16-point spacing; its key height remains controlled by the rule at 48 points.
 
 The new layout was imported and linked on the author's physical Duo. A tap in the newly covered right-hand space area inserted a space, and the number page was checked too. The full-width space uses the same bottom-row geometry on the symbol page.
 
