@@ -1,6 +1,3811 @@
 {
   "id": "custom-duo-split",
-  "name": "Duo Split — Apple-inspired",
+  "removedFunctionKeys": [
+    "numbersPlane",
+    "shift",
+    "backspace",
+    "space",
+    "returnKey"
+  ],
+  "name": "Duo Split — Full-width space",
+  "advancedSymbolRows": [
+    {
+      "id": "CE385991-62A5-4EDF-B060-678502EB476E",
+      "persistsAcrossPlanes": false,
+      "keys": [
+        {
+          "action": {
+            "insert": {
+              "_0": "["
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "A78F58EE-28EC-4744-BE07-C187540834F5",
+          "glyph": "[",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "]"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "73A70BFD-128B-4DB2-A169-551561145E71",
+          "glyph": "]",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "{"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "8554C8D7-C5D8-40E8-891C-98A770E0EE98",
+          "glyph": "{",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "}"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "85CB994A-5F55-4DBB-9630-2E6DD020322F",
+          "glyph": "}",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "#"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "65E9C5CA-FFD8-46B0-B51E-A42C21741CBB",
+          "glyph": "#",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "spacer": {}
+          },
+          "showsBackground": false,
+          "excludedInheritedAlternates": [],
+          "id": "BA4D9BC7-9675-4031-B32F-F57B380B3919",
+          "glyph": "",
+          "width": 4.5,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "%"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "CAF387DA-F489-4BF5-A660-5DD782DBCAD5",
+          "glyph": "%",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "^"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "DC1D06EC-4854-43B7-830A-8C67F6018011",
+          "glyph": "^",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "*"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "7A3A7089-0A45-4451-BB7F-949969B47ECA",
+          "glyph": "*",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "+"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "0357477C-927D-4BC4-92CC-5C422DE48B10",
+          "glyph": "+",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "="
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "870CFBD0-E2D6-4058-8775-ED78E2288E3A",
+          "glyph": "=",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        }
+      ]
+    },
+    {
+      "id": "4F14B78E-9B62-4433-BD7E-A4AF9E40B998",
+      "persistsAcrossPlanes": false,
+      "keys": [
+        {
+          "action": {
+            "insert": {
+              "_0": "_"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "A589DBD8-9C4D-4996-B017-3C2877117B36",
+          "glyph": "_",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "\\"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "ADD63C70-8C24-46C0-8CEA-C501CD386632",
+          "glyph": "\\",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "|"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "E7C64AE7-6DDB-402D-A602-142BC13DDD1F",
+          "glyph": "|",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "~"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "FD66A708-234D-483A-8580-2884587FF8B1",
+          "glyph": "~",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "<"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "15BF75BA-BAF0-4DBD-873E-3572B86F7332",
+          "glyph": "<",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "spacer": {}
+          },
+          "showsBackground": false,
+          "excludedInheritedAlternates": [],
+          "id": "38AA2B8A-5FA0-40E5-95D5-4713734F2F07",
+          "glyph": "",
+          "width": 4.5,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": ">"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "05DC74AD-A6D6-41A4-B049-768FB52FEBD4",
+          "glyph": ">",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "€"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "56E84BA6-7E9C-4F7A-9797-6FE5441A888C",
+          "glyph": "€",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "£"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "61F77C93-65AC-4EEF-9C86-9D74E823CCE0",
+          "glyph": "£",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "¥"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "653A3E07-CB8C-4143-8C87-67795DD91534",
+          "glyph": "¥",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "•"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "9D023071-A8BD-409A-A5B5-D3882B1C0926",
+          "glyph": "•",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        }
+      ]
+    },
+    {
+      "id": "315A1541-05F7-4886-B913-52439F1F196D",
+      "persistsAcrossPlanes": false,
+      "keys": [
+        {
+          "action": {
+            "layoutSwitch": {
+              "_0": [
+                "page:numbers"
+              ]
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "C33C77F3-BA3F-4F69-A06F-A7F37895EE42",
+          "glyph": "123",
+          "width": 1.4,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "."
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "10B9E689-9A94-4834-80FB-954D5B2E0E3E",
+          "glyph": ".",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": ","
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "A7F41B4E-E1A3-412D-9C92-BE0159D09C58",
+          "glyph": ",",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "?"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "0640A00C-C465-4C9E-BC33-883012825AE9",
+          "glyph": "?",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "spacer": {}
+          },
+          "showsBackground": false,
+          "excludedInheritedAlternates": [],
+          "id": "EE12AAB8-360E-4F0D-A117-89E72EEC1521",
+          "glyph": "",
+          "width": 5,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "!"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "D35CA20A-32B4-43FA-9E36-EA151680B738",
+          "glyph": "!",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "'"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "52E7ADCB-3DEB-45C4-A599-C5DD969CFCA2",
+          "glyph": "'",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "backspace": {}
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "08B321A5-972B-4D3A-A545-BBD03601E4CA",
+          "glyph": "delete.left",
+          "width": 1.4,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": true
+        }
+      ]
+    },
+    {
+      "id": "C79CC919-F3B2-4050-97C0-ADD1318A871F",
+      "persistsAcrossPlanes": false,
+      "keys": [
+        {
+          "action": {
+            "layoutSwitch": {
+              "_0": [
+                "page:letters"
+              ]
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "2C603B28-D745-421F-A0D5-69D75B89B815",
+          "glyph": "ABC",
+          "width": 1.30252101,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "nextKeyboard": {}
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "71199FB9-C087-4E48-A852-452DD24AC428",
+          "glyph": "globe",
+          "width": 0.79831933,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": true
+        },
+        {
+          "action": {
+            "space": {}
+          },
+          "showsBackground": false,
+          "excludedInheritedAlternates": [],
+          "id": "358FB8AF-F545-4138-A0DD-06134B5F99B9",
+          "glyph": "",
+          "width": 10,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "returnKey": {}
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "AE1D3A75-EAC6-4F65-AD6D-5DB25BC0E8FF",
+          "glyph": "return",
+          "width": 1.30252101,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        }
+      ]
+    }
+  ],
+  "advancedNumberRows": [
+    {
+      "id": "6857A271-15FD-4320-94D4-AB1ADEB3338B",
+      "persistsAcrossPlanes": false,
+      "keys": [
+        {
+          "action": {
+            "insert": {
+              "_0": "1"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "FA3D357C-9C07-492B-BC5C-AA06A13A0A75",
+          "glyph": "1",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "2"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "FB8D866F-8925-463D-8DD0-6FFB35F91E78",
+          "glyph": "2",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "3"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "FEE598ED-9F62-4945-B32E-4E3421DD657D",
+          "glyph": "3",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "4"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "353D1B0E-698C-4193-9020-46DA842B8A25",
+          "glyph": "4",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "5"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "1DD7139F-D58B-4AB0-8500-B903937259DA",
+          "glyph": "5",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "spacer": {}
+          },
+          "showsBackground": false,
+          "excludedInheritedAlternates": [],
+          "id": "1A89801C-2590-4A05-AABE-6781599F5620",
+          "glyph": "",
+          "width": 4.5,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "6"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "C343976A-DD8C-4756-B42A-C0A47408EA8E",
+          "glyph": "6",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "7"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "FEC42A38-BEB6-4D0D-8302-72EE24ECAD76",
+          "glyph": "7",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "8"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "64C995D6-58B0-4C91-834E-797F9C9AD1B2",
+          "glyph": "8",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "9"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "0383554F-6FE0-4D61-8F58-A7AA0B237F26",
+          "glyph": "9",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "0"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "93C08065-359A-43A5-B08F-F7087F07DEB8",
+          "glyph": "0",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        }
+      ]
+    },
+    {
+      "id": "822D7951-5917-4018-90CD-6717C7D11AE9",
+      "persistsAcrossPlanes": false,
+      "keys": [
+        {
+          "action": {
+            "insert": {
+              "_0": "-"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "EA41F75A-DC47-4A0D-8AFD-307D5E5A3E1F",
+          "glyph": "-",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "/"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "01D92E58-DD40-4B1C-B089-95C392159844",
+          "glyph": "/",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": ":"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "FEC6E0CB-5829-453F-A216-325ADA586CDA",
+          "glyph": ":",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": ";"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "A962EAE4-AD26-4A9F-B3BC-044A5D0087D5",
+          "glyph": ";",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "("
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "0ED004ED-8BF8-413E-BFAE-EEB911DCE117",
+          "glyph": "(",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "spacer": {}
+          },
+          "showsBackground": false,
+          "excludedInheritedAlternates": [],
+          "id": "6D9D53C4-BD71-481A-BB11-D952735A196F",
+          "glyph": "",
+          "width": 4.5,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": ")"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "9FB0496C-FFC6-420E-BB26-DFE509482A3E",
+          "glyph": ")",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "$"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "11F192BD-EC01-4C8A-A5D5-14311EB46C9A",
+          "glyph": "$",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "&"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "E73C1CD1-041F-472D-9505-BF22531E2ABE",
+          "glyph": "&",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "@"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "E8639761-2CCE-417A-9B84-F64428D0D109",
+          "glyph": "@",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "\""
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "1E39A3BE-D8C0-450E-9F6F-08CFEC40CC8A",
+          "glyph": "\"",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        }
+      ]
+    },
+    {
+      "id": "3F5E46BD-EF64-482D-8BE5-59DF8593A958",
+      "persistsAcrossPlanes": false,
+      "keys": [
+        {
+          "action": {
+            "layoutSwitch": {
+              "_0": [
+                "page:symbols"
+              ]
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "FB254A02-79D6-4D83-83F3-22D9A030FDD9",
+          "glyph": "#+=",
+          "width": 1.4,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "."
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "01239E48-E65C-408E-A32E-F2E01AD8FDC6",
+          "glyph": ".",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": ","
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "80824889-8EF5-4ABC-AF97-930B701299F9",
+          "glyph": ",",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "?"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "B2B250F8-4989-4E2D-B221-0391E1F56F6D",
+          "glyph": "?",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "spacer": {}
+          },
+          "showsBackground": false,
+          "excludedInheritedAlternates": [],
+          "id": "7A491084-8163-41B6-B6AB-F29F5C92DBCA",
+          "glyph": "",
+          "width": 5,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "!"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "7B1E00BC-A525-4F44-97E9-399F38CC987A",
+          "glyph": "!",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "'"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "6CCF8420-0F6F-40E5-8ED0-A104631E3CC8",
+          "glyph": "'",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "backspace": {}
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "417D1954-46E0-4A42-811F-FC501E914ECE",
+          "glyph": "delete.left",
+          "width": 1.4,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": true
+        }
+      ]
+    },
+    {
+      "id": "61DB4AFA-417E-499D-9FF5-7E7CF32A10B6",
+      "persistsAcrossPlanes": false,
+      "keys": [
+        {
+          "action": {
+            "layoutSwitch": {
+              "_0": [
+                "page:letters"
+              ]
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "9C77193D-3DD6-4C75-9800-5E47BCCA67B8",
+          "glyph": "ABC",
+          "width": 1.30252101,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "nextKeyboard": {}
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "7D582017-AD49-4CE6-9E1C-FAA1E7D6DC3D",
+          "glyph": "globe",
+          "width": 0.79831933,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": true
+        },
+        {
+          "action": {
+            "space": {}
+          },
+          "showsBackground": false,
+          "excludedInheritedAlternates": [],
+          "id": "24B00930-9CA3-47EC-9BE2-4E9416811580",
+          "glyph": "",
+          "width": 10,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "returnKey": {}
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "5B8363CD-2D36-4C16-B808-55212A57B4F4",
+          "glyph": "return",
+          "width": 1.30252101,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "page:letters",
+      "title": "ABC",
+      "rows": [
+        {
+          "id": "735AF7D0-45AF-4ED0-AC5F-7B3474CCA758",
+          "persistsAcrossPlanes": false,
+          "keys": [
+            {
+              "action": {
+                "insert": {
+                  "_0": "q"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "F4273D9E-7AC4-4067-8B62-29CC3A6F47E4",
+              "glyph": "q",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "w"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "29C03A59-5879-48F8-A05B-1EF38C8D0A15",
+              "glyph": "w",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "e"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "923AAE8B-898B-4CFB-90EB-A3ADE58E1D68",
+              "glyph": "e",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "r"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "DEE3312F-D101-4A2E-80BA-8E70779781E5",
+              "glyph": "r",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "t"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "792652D2-8BD8-4C97-9B9E-5972CF91F36B",
+              "glyph": "t",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "spacer": {}
+              },
+              "showsBackground": false,
+              "excludedInheritedAlternates": [],
+              "id": "8C0CD07E-E300-42CF-948C-2102F3ADC868",
+              "glyph": "",
+              "width": 4.5,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "y"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "061C7541-62CB-4459-9A0C-3DF780F9FBF4",
+              "glyph": "y",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "u"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "B1EADD76-C3FC-49BA-8599-59AE2E3C0F4B",
+              "glyph": "u",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "i"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "118881A0-D90C-40D5-815E-F322A9F27EE4",
+              "glyph": "i",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "o"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "A6591954-4A21-4DB8-A067-01C56837A908",
+              "glyph": "o",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "p"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "DDFE120C-8303-4214-81CC-6845296F2DAF",
+              "glyph": "p",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            }
+          ]
+        },
+        {
+          "id": "D669EC3D-307C-4AB3-BA73-90AF2FE5A4BC",
+          "persistsAcrossPlanes": false,
+          "keys": [
+            {
+              "action": {
+                "spacer": {}
+              },
+              "showsBackground": false,
+              "excludedInheritedAlternates": [],
+              "id": "58A324F9-A706-4CF0-B0D5-FD220C931A62",
+              "glyph": "",
+              "width": 0.4,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "a"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "E0334593-0851-49E9-8DCF-2DB768B5E22D",
+              "glyph": "a",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "s"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "9F429F2D-BF51-4FC6-A0C9-408577AFC29A",
+              "glyph": "s",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "d"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "78DB7403-F784-461B-AE69-D180D67B8882",
+              "glyph": "d",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "f"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "C8C6FB0D-5635-49E9-B3A7-0CE6F6EE8AEF",
+              "glyph": "f",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "g"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "D2F75B26-6BDD-4239-9D38-76078E5740A4",
+              "glyph": "g",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "spacer": {}
+              },
+              "showsBackground": false,
+              "excludedInheritedAlternates": [],
+              "id": "C3398DC1-B258-46BD-8DE3-7E12DC2F0457",
+              "glyph": "",
+              "width": 3.3,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "g"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "9DB0142A-7B3B-428E-9B5E-6E9D587EAF07",
+              "glyph": "g",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "h"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "98466FD9-924E-4DEA-9455-0979C0579CDD",
+              "glyph": "h",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "j"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "C232C382-FCDB-47BB-8946-D1197841E9A2",
+              "glyph": "j",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "k"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "973EBD91-DD9D-498F-B1D5-59DBAA9667C7",
+              "glyph": "k",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "l"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "A647C61E-91E5-4D54-89DD-C6CAA4BD7258",
+              "glyph": "l",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "spacer": {}
+              },
+              "showsBackground": false,
+              "excludedInheritedAlternates": [],
+              "id": "F87C490E-CF2F-4183-81D6-1CBAFE03CEFC",
+              "glyph": "",
+              "width": 0.4,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            }
+          ]
+        },
+        {
+          "id": "15C5A34A-EF70-4DB2-A3D5-4561FB2560A9",
+          "persistsAcrossPlanes": false,
+          "keys": [
+            {
+              "action": {
+                "shift": {}
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "F7303910-0527-46B2-86BA-B85FC85FEDC7",
+              "glyph": "shift",
+              "width": 1.4,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": true
+            },
+            {
+              "action": {
+                "spacer": {}
+              },
+              "showsBackground": false,
+              "excludedInheritedAlternates": [],
+              "id": "B14F9638-70BA-4F43-B459-ADE8F6704F0E",
+              "glyph": "",
+              "width": 0.2,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "z"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "8B05429B-FBF9-456B-89C4-13638632B96E",
+              "glyph": "z",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "x"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "B4EE4449-2449-48A9-B6B1-C653B983DF88",
+              "glyph": "x",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "c"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "9A42FF18-9EFA-4D1E-915A-3A52216F8230",
+              "glyph": "c",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "v"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "6918F235-806B-4926-89CD-3E2385CD8412",
+              "glyph": "v",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "spacer": {}
+              },
+              "showsBackground": false,
+              "excludedInheritedAlternates": [],
+              "id": "45A302D6-162E-4C44-8A11-1064BE9A4BB1",
+              "glyph": "",
+              "width": 3.3,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "v"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "50AA85A3-0887-42A4-AB55-F53BAE5511BA",
+              "glyph": "v",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "b"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "D570D88E-A2ED-489F-BE8A-36070E91ABB3",
+              "glyph": "b",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "n"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "4A2C5A4A-6158-49AF-A324-F530B9257988",
+              "glyph": "n",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "m"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "23ADEC21-80FE-428B-BD3C-EEA94A9A4E07",
+              "glyph": "m",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "spacer": {}
+              },
+              "showsBackground": false,
+              "excludedInheritedAlternates": [],
+              "id": "19077947-1119-4CF4-9FE5-D776423D81E6",
+              "glyph": "",
+              "width": 0.2,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "backspace": {}
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "019A303F-41C1-44B3-8B21-E0D728E507B4",
+              "glyph": "delete.left",
+              "width": 1.4,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": true
+            }
+          ]
+        },
+        {
+          "id": "28A7A039-A26F-489D-88E1-718D281FC392",
+          "persistsAcrossPlanes": false,
+          "keys": [
+            {
+              "action": {
+                "layoutSwitch": {
+                  "_0": [
+                    "page:numbers"
+                  ]
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "0E8FBD57-721F-4294-AE09-759DA00B9D6E",
+              "glyph": "123",
+              "width": 1.30252101,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "nextKeyboard": {}
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "8D671F0E-8374-4C7B-9F3D-02782DA51890",
+              "glyph": "globe",
+              "width": 0.79831933,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": true
+            },
+            {
+              "action": {
+                "space": {}
+              },
+              "showsBackground": false,
+              "excludedInheritedAlternates": [],
+              "id": "6744042D-093E-44F9-9C74-A32F36C156F1",
+              "glyph": "",
+              "width": 10,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "returnKey": {}
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "0F0693C0-50A3-4E91-A442-4CA7851D7A16",
+              "glyph": "return",
+              "width": 1.30252101,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            }
+          ]
+        }
+      ],
+      "role": "letters"
+    },
+    {
+      "id": "page:numbers",
+      "title": "123",
+      "rows": [
+        {
+          "id": "6857A271-15FD-4320-94D4-AB1ADEB3338B",
+          "persistsAcrossPlanes": false,
+          "keys": [
+            {
+              "action": {
+                "insert": {
+                  "_0": "1"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "FA3D357C-9C07-492B-BC5C-AA06A13A0A75",
+              "glyph": "1",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "2"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "FB8D866F-8925-463D-8DD0-6FFB35F91E78",
+              "glyph": "2",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "3"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "FEE598ED-9F62-4945-B32E-4E3421DD657D",
+              "glyph": "3",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "4"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "353D1B0E-698C-4193-9020-46DA842B8A25",
+              "glyph": "4",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "5"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "1DD7139F-D58B-4AB0-8500-B903937259DA",
+              "glyph": "5",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "spacer": {}
+              },
+              "showsBackground": false,
+              "excludedInheritedAlternates": [],
+              "id": "1A89801C-2590-4A05-AABE-6781599F5620",
+              "glyph": "",
+              "width": 4.5,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "6"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "C343976A-DD8C-4756-B42A-C0A47408EA8E",
+              "glyph": "6",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "7"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "FEC42A38-BEB6-4D0D-8302-72EE24ECAD76",
+              "glyph": "7",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "8"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "64C995D6-58B0-4C91-834E-797F9C9AD1B2",
+              "glyph": "8",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "9"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "0383554F-6FE0-4D61-8F58-A7AA0B237F26",
+              "glyph": "9",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "0"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "93C08065-359A-43A5-B08F-F7087F07DEB8",
+              "glyph": "0",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            }
+          ]
+        },
+        {
+          "id": "822D7951-5917-4018-90CD-6717C7D11AE9",
+          "persistsAcrossPlanes": false,
+          "keys": [
+            {
+              "action": {
+                "insert": {
+                  "_0": "-"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "EA41F75A-DC47-4A0D-8AFD-307D5E5A3E1F",
+              "glyph": "-",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "/"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "01D92E58-DD40-4B1C-B089-95C392159844",
+              "glyph": "/",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": ":"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "FEC6E0CB-5829-453F-A216-325ADA586CDA",
+              "glyph": ":",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": ";"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "A962EAE4-AD26-4A9F-B3BC-044A5D0087D5",
+              "glyph": ";",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "("
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "0ED004ED-8BF8-413E-BFAE-EEB911DCE117",
+              "glyph": "(",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "spacer": {}
+              },
+              "showsBackground": false,
+              "excludedInheritedAlternates": [],
+              "id": "6D9D53C4-BD71-481A-BB11-D952735A196F",
+              "glyph": "",
+              "width": 4.5,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": ")"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "9FB0496C-FFC6-420E-BB26-DFE509482A3E",
+              "glyph": ")",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "$"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "11F192BD-EC01-4C8A-A5D5-14311EB46C9A",
+              "glyph": "$",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "&"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "E73C1CD1-041F-472D-9505-BF22531E2ABE",
+              "glyph": "&",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "@"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "E8639761-2CCE-417A-9B84-F64428D0D109",
+              "glyph": "@",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "\""
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "1E39A3BE-D8C0-450E-9F6F-08CFEC40CC8A",
+              "glyph": "\"",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            }
+          ]
+        },
+        {
+          "id": "3F5E46BD-EF64-482D-8BE5-59DF8593A958",
+          "persistsAcrossPlanes": false,
+          "keys": [
+            {
+              "action": {
+                "layoutSwitch": {
+                  "_0": [
+                    "page:symbols"
+                  ]
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "FB254A02-79D6-4D83-83F3-22D9A030FDD9",
+              "glyph": "#+=",
+              "width": 1.4,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "."
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "01239E48-E65C-408E-A32E-F2E01AD8FDC6",
+              "glyph": ".",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": ","
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "80824889-8EF5-4ABC-AF97-930B701299F9",
+              "glyph": ",",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "?"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "B2B250F8-4989-4E2D-B221-0391E1F56F6D",
+              "glyph": "?",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "spacer": {}
+              },
+              "showsBackground": false,
+              "excludedInheritedAlternates": [],
+              "id": "7A491084-8163-41B6-B6AB-F29F5C92DBCA",
+              "glyph": "",
+              "width": 5,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "!"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "7B1E00BC-A525-4F44-97E9-399F38CC987A",
+              "glyph": "!",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "'"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "6CCF8420-0F6F-40E5-8ED0-A104631E3CC8",
+              "glyph": "'",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "backspace": {}
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "417D1954-46E0-4A42-811F-FC501E914ECE",
+              "glyph": "delete.left",
+              "width": 1.4,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": true
+            }
+          ]
+        },
+        {
+          "id": "61DB4AFA-417E-499D-9FF5-7E7CF32A10B6",
+          "persistsAcrossPlanes": false,
+          "keys": [
+            {
+              "action": {
+                "layoutSwitch": {
+                  "_0": [
+                    "page:letters"
+                  ]
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "9C77193D-3DD6-4C75-9800-5E47BCCA67B8",
+              "glyph": "ABC",
+              "width": 1.30252101,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "nextKeyboard": {}
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "7D582017-AD49-4CE6-9E1C-FAA1E7D6DC3D",
+              "glyph": "globe",
+              "width": 0.79831933,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": true
+            },
+            {
+              "action": {
+                "space": {}
+              },
+              "showsBackground": false,
+              "excludedInheritedAlternates": [],
+              "id": "24B00930-9CA3-47EC-9BE2-4E9416811580",
+              "glyph": "",
+              "width": 10,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "returnKey": {}
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "5B8363CD-2D36-4C16-B808-55212A57B4F4",
+              "glyph": "return",
+              "width": 1.30252101,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            }
+          ]
+        }
+      ],
+      "role": "numbers"
+    },
+    {
+      "id": "page:symbols",
+      "title": "#+=",
+      "rows": [
+        {
+          "id": "CE385991-62A5-4EDF-B060-678502EB476E",
+          "persistsAcrossPlanes": false,
+          "keys": [
+            {
+              "action": {
+                "insert": {
+                  "_0": "["
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "A78F58EE-28EC-4744-BE07-C187540834F5",
+              "glyph": "[",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "]"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "73A70BFD-128B-4DB2-A169-551561145E71",
+              "glyph": "]",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "{"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "8554C8D7-C5D8-40E8-891C-98A770E0EE98",
+              "glyph": "{",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "}"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "85CB994A-5F55-4DBB-9630-2E6DD020322F",
+              "glyph": "}",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "#"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "65E9C5CA-FFD8-46B0-B51E-A42C21741CBB",
+              "glyph": "#",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "spacer": {}
+              },
+              "showsBackground": false,
+              "excludedInheritedAlternates": [],
+              "id": "BA4D9BC7-9675-4031-B32F-F57B380B3919",
+              "glyph": "",
+              "width": 4.5,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "%"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "CAF387DA-F489-4BF5-A660-5DD782DBCAD5",
+              "glyph": "%",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "^"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "DC1D06EC-4854-43B7-830A-8C67F6018011",
+              "glyph": "^",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "*"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "7A3A7089-0A45-4451-BB7F-949969B47ECA",
+              "glyph": "*",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "+"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "0357477C-927D-4BC4-92CC-5C422DE48B10",
+              "glyph": "+",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "="
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "870CFBD0-E2D6-4058-8775-ED78E2288E3A",
+              "glyph": "=",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            }
+          ]
+        },
+        {
+          "id": "4F14B78E-9B62-4433-BD7E-A4AF9E40B998",
+          "persistsAcrossPlanes": false,
+          "keys": [
+            {
+              "action": {
+                "insert": {
+                  "_0": "_"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "A589DBD8-9C4D-4996-B017-3C2877117B36",
+              "glyph": "_",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "\\"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "ADD63C70-8C24-46C0-8CEA-C501CD386632",
+              "glyph": "\\",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "|"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "E7C64AE7-6DDB-402D-A602-142BC13DDD1F",
+              "glyph": "|",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "~"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "FD66A708-234D-483A-8580-2884587FF8B1",
+              "glyph": "~",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "<"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "15BF75BA-BAF0-4DBD-873E-3572B86F7332",
+              "glyph": "<",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "spacer": {}
+              },
+              "showsBackground": false,
+              "excludedInheritedAlternates": [],
+              "id": "38AA2B8A-5FA0-40E5-95D5-4713734F2F07",
+              "glyph": "",
+              "width": 4.5,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": ">"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "05DC74AD-A6D6-41A4-B049-768FB52FEBD4",
+              "glyph": ">",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "€"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "56E84BA6-7E9C-4F7A-9797-6FE5441A888C",
+              "glyph": "€",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "£"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "61F77C93-65AC-4EEF-9C86-9D74E823CCE0",
+              "glyph": "£",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "¥"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "653A3E07-CB8C-4143-8C87-67795DD91534",
+              "glyph": "¥",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "•"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "9D023071-A8BD-409A-A5B5-D3882B1C0926",
+              "glyph": "•",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            }
+          ]
+        },
+        {
+          "id": "315A1541-05F7-4886-B913-52439F1F196D",
+          "persistsAcrossPlanes": false,
+          "keys": [
+            {
+              "action": {
+                "layoutSwitch": {
+                  "_0": [
+                    "page:numbers"
+                  ]
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "C33C77F3-BA3F-4F69-A06F-A7F37895EE42",
+              "glyph": "123",
+              "width": 1.4,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "."
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "10B9E689-9A94-4834-80FB-954D5B2E0E3E",
+              "glyph": ".",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": ","
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "A7F41B4E-E1A3-412D-9C92-BE0159D09C58",
+              "glyph": ",",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "?"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "0640A00C-C465-4C9E-BC33-883012825AE9",
+              "glyph": "?",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "spacer": {}
+              },
+              "showsBackground": false,
+              "excludedInheritedAlternates": [],
+              "id": "EE12AAB8-360E-4F0D-A117-89E72EEC1521",
+              "glyph": "",
+              "width": 5,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "!"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "D35CA20A-32B4-43FA-9E36-EA151680B738",
+              "glyph": "!",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "insert": {
+                  "_0": "'"
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "52E7ADCB-3DEB-45C4-A599-C5DD969CFCA2",
+              "glyph": "'",
+              "width": 1,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "backspace": {}
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "08B321A5-972B-4D3A-A545-BBD03601E4CA",
+              "glyph": "delete.left",
+              "width": 1.4,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": true
+            }
+          ]
+        },
+        {
+          "id": "C79CC919-F3B2-4050-97C0-ADD1318A871F",
+          "persistsAcrossPlanes": false,
+          "keys": [
+            {
+              "action": {
+                "layoutSwitch": {
+                  "_0": [
+                    "page:letters"
+                  ]
+                }
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "2C603B28-D745-421F-A0D5-69D75B89B815",
+              "glyph": "ABC",
+              "width": 1.30252101,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "nextKeyboard": {}
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "71199FB9-C087-4E48-A852-452DD24AC428",
+              "glyph": "globe",
+              "width": 0.79831933,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": true
+            },
+            {
+              "action": {
+                "space": {}
+              },
+              "showsBackground": false,
+              "excludedInheritedAlternates": [],
+              "id": "358FB8AF-F545-4138-A0DD-06134B5F99B9",
+              "glyph": "",
+              "width": 10,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            },
+            {
+              "action": {
+                "returnKey": {}
+              },
+              "showsBackground": true,
+              "excludedInheritedAlternates": [],
+              "id": "AE1D3A75-EAC6-4F65-AD6D-5DB25BC0E8FF",
+              "glyph": "return",
+              "width": 1.30252101,
+              "widthLocked": false,
+              "glyphScale": 1,
+              "alternates": [],
+              "centered": false,
+              "isSymbol": false
+            }
+          ]
+        }
+      ],
+      "role": "symbols"
+    }
+  ],
+  "bottomLeadingKeys": [],
+  "longPressPresetConfigured": true,
+  "pageStackOrder": {},
+  "advancedRows": [
+    {
+      "id": "735AF7D0-45AF-4ED0-AC5F-7B3474CCA758",
+      "persistsAcrossPlanes": false,
+      "keys": [
+        {
+          "action": {
+            "insert": {
+              "_0": "q"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "F4273D9E-7AC4-4067-8B62-29CC3A6F47E4",
+          "glyph": "q",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "w"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "29C03A59-5879-48F8-A05B-1EF38C8D0A15",
+          "glyph": "w",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "e"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "923AAE8B-898B-4CFB-90EB-A3ADE58E1D68",
+          "glyph": "e",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "r"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "DEE3312F-D101-4A2E-80BA-8E70779781E5",
+          "glyph": "r",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "t"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "792652D2-8BD8-4C97-9B9E-5972CF91F36B",
+          "glyph": "t",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "spacer": {}
+          },
+          "showsBackground": false,
+          "excludedInheritedAlternates": [],
+          "id": "8C0CD07E-E300-42CF-948C-2102F3ADC868",
+          "glyph": "",
+          "width": 4.5,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "y"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "061C7541-62CB-4459-9A0C-3DF780F9FBF4",
+          "glyph": "y",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "u"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "B1EADD76-C3FC-49BA-8599-59AE2E3C0F4B",
+          "glyph": "u",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "i"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "118881A0-D90C-40D5-815E-F322A9F27EE4",
+          "glyph": "i",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "o"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "A6591954-4A21-4DB8-A067-01C56837A908",
+          "glyph": "o",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "p"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "DDFE120C-8303-4214-81CC-6845296F2DAF",
+          "glyph": "p",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        }
+      ]
+    },
+    {
+      "id": "D669EC3D-307C-4AB3-BA73-90AF2FE5A4BC",
+      "persistsAcrossPlanes": false,
+      "keys": [
+        {
+          "action": {
+            "spacer": {}
+          },
+          "showsBackground": false,
+          "excludedInheritedAlternates": [],
+          "id": "58A324F9-A706-4CF0-B0D5-FD220C931A62",
+          "glyph": "",
+          "width": 0.4,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "a"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "E0334593-0851-49E9-8DCF-2DB768B5E22D",
+          "glyph": "a",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "s"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "9F429F2D-BF51-4FC6-A0C9-408577AFC29A",
+          "glyph": "s",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "d"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "78DB7403-F784-461B-AE69-D180D67B8882",
+          "glyph": "d",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "f"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "C8C6FB0D-5635-49E9-B3A7-0CE6F6EE8AEF",
+          "glyph": "f",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "g"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "D2F75B26-6BDD-4239-9D38-76078E5740A4",
+          "glyph": "g",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "spacer": {}
+          },
+          "showsBackground": false,
+          "excludedInheritedAlternates": [],
+          "id": "C3398DC1-B258-46BD-8DE3-7E12DC2F0457",
+          "glyph": "",
+          "width": 3.3,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "g"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "9DB0142A-7B3B-428E-9B5E-6E9D587EAF07",
+          "glyph": "g",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "h"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "98466FD9-924E-4DEA-9455-0979C0579CDD",
+          "glyph": "h",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "j"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "C232C382-FCDB-47BB-8946-D1197841E9A2",
+          "glyph": "j",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "k"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "973EBD91-DD9D-498F-B1D5-59DBAA9667C7",
+          "glyph": "k",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "l"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "A647C61E-91E5-4D54-89DD-C6CAA4BD7258",
+          "glyph": "l",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "spacer": {}
+          },
+          "showsBackground": false,
+          "excludedInheritedAlternates": [],
+          "id": "F87C490E-CF2F-4183-81D6-1CBAFE03CEFC",
+          "glyph": "",
+          "width": 0.4,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        }
+      ]
+    },
+    {
+      "id": "15C5A34A-EF70-4DB2-A3D5-4561FB2560A9",
+      "persistsAcrossPlanes": false,
+      "keys": [
+        {
+          "action": {
+            "shift": {}
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "F7303910-0527-46B2-86BA-B85FC85FEDC7",
+          "glyph": "shift",
+          "width": 1.4,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": true
+        },
+        {
+          "action": {
+            "spacer": {}
+          },
+          "showsBackground": false,
+          "excludedInheritedAlternates": [],
+          "id": "B14F9638-70BA-4F43-B459-ADE8F6704F0E",
+          "glyph": "",
+          "width": 0.2,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "z"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "8B05429B-FBF9-456B-89C4-13638632B96E",
+          "glyph": "z",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "x"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "B4EE4449-2449-48A9-B6B1-C653B983DF88",
+          "glyph": "x",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "c"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "9A42FF18-9EFA-4D1E-915A-3A52216F8230",
+          "glyph": "c",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "v"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "6918F235-806B-4926-89CD-3E2385CD8412",
+          "glyph": "v",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "spacer": {}
+          },
+          "showsBackground": false,
+          "excludedInheritedAlternates": [],
+          "id": "45A302D6-162E-4C44-8A11-1064BE9A4BB1",
+          "glyph": "",
+          "width": 3.3,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "v"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "50AA85A3-0887-42A4-AB55-F53BAE5511BA",
+          "glyph": "v",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "b"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "D570D88E-A2ED-489F-BE8A-36070E91ABB3",
+          "glyph": "b",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "n"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "4A2C5A4A-6158-49AF-A324-F530B9257988",
+          "glyph": "n",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "insert": {
+              "_0": "m"
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "23ADEC21-80FE-428B-BD3C-EEA94A9A4E07",
+          "glyph": "m",
+          "width": 1,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "spacer": {}
+          },
+          "showsBackground": false,
+          "excludedInheritedAlternates": [],
+          "id": "19077947-1119-4CF4-9FE5-D776423D81E6",
+          "glyph": "",
+          "width": 0.2,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "backspace": {}
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "019A303F-41C1-44B3-8B21-E0D728E507B4",
+          "glyph": "delete.left",
+          "width": 1.4,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": true
+        }
+      ]
+    },
+    {
+      "id": "28A7A039-A26F-489D-88E1-718D281FC392",
+      "persistsAcrossPlanes": false,
+      "keys": [
+        {
+          "action": {
+            "layoutSwitch": {
+              "_0": [
+                "page:numbers"
+              ]
+            }
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "0E8FBD57-721F-4294-AE09-759DA00B9D6E",
+          "glyph": "123",
+          "width": 1.30252101,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "nextKeyboard": {}
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "8D671F0E-8374-4C7B-9F3D-02782DA51890",
+          "glyph": "globe",
+          "width": 0.79831933,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": true
+        },
+        {
+          "action": {
+            "space": {}
+          },
+          "showsBackground": false,
+          "excludedInheritedAlternates": [],
+          "id": "6744042D-093E-44F9-9C74-A32F36C156F1",
+          "glyph": "",
+          "width": 10,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        },
+        {
+          "action": {
+            "returnKey": {}
+          },
+          "showsBackground": true,
+          "excludedInheritedAlternates": [],
+          "id": "0F0693C0-50A3-4E91-A442-4CA7851D7A16",
+          "glyph": "return",
+          "width": 1.30252101,
+          "widthLocked": false,
+          "glyphScale": 1,
+          "alternates": [],
+          "centered": false,
+          "isSymbol": false
+        }
+      ]
+    }
+  ],
   "rows": [
     [
       "q",
@@ -38,3229 +3843,11 @@
     ],
     []
   ],
-  "pages": [
-    {
-      "id": "page:letters",
-      "role": "letters",
-      "title": "ABC",
-      "rows": [
-        {
-          "id": "735af7d0-45af-4ed0-ac5f-7b3474cca758",
-          "persistsAcrossPlanes": false,
-          "keys": [
-            {
-              "id": "f4273d9e-7ac4-4067-8b62-29cc3a6f47e4",
-              "glyph": "q",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "q"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "29c03a59-5879-48f8-a05b-1ef38c8d0a15",
-              "glyph": "w",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "w"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "923aae8b-898b-4cfb-90eb-a3ade58e1d68",
-              "glyph": "e",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "e"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "dee3312f-d101-4a2e-80ba-8e70779781e5",
-              "glyph": "r",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "r"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "792652d2-8bd8-4c97-9b9e-5972cf91f36b",
-              "glyph": "t",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "t"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "8c0cd07e-e300-42cf-948c-2102f3adc868",
-              "glyph": "",
-              "isSymbol": false,
-              "action": {
-                "spacer": {}
-              },
-              "alternates": [],
-              "width": 4.5,
-              "glyphScale": 1,
-              "showsBackground": false
-            },
-            {
-              "id": "061c7541-62cb-4459-9a0c-3df780f9fbf4",
-              "glyph": "y",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "y"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "b1eadd76-c3fc-49ba-8599-59ae2e3c0f4b",
-              "glyph": "u",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "u"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "118881a0-d90c-40d5-815e-f322a9f27ee4",
-              "glyph": "i",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "i"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "a6591954-4a21-4db8-a067-01c56837a908",
-              "glyph": "o",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "o"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "ddfe120c-8303-4214-81cc-6845296f2daf",
-              "glyph": "p",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "p"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            }
-          ]
-        },
-        {
-          "id": "d669ec3d-307c-4ab3-ba73-90af2fe5a4bc",
-          "persistsAcrossPlanes": false,
-          "keys": [
-            {
-              "id": "58a324f9-a706-4cf0-b0d5-fd220c931a62",
-              "glyph": "",
-              "isSymbol": false,
-              "action": {
-                "spacer": {}
-              },
-              "alternates": [],
-              "width": 0.4,
-              "glyphScale": 1,
-              "showsBackground": false
-            },
-            {
-              "id": "e0334593-0851-49e9-8dcf-2db768b5e22d",
-              "glyph": "a",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "a"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "9f429f2d-bf51-4fc6-a0c9-408577afc29a",
-              "glyph": "s",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "s"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "78db7403-f784-461b-ae69-d180d67b8882",
-              "glyph": "d",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "d"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "c8c6fb0d-5635-49e9-b3a7-0ce6f6ee8aef",
-              "glyph": "f",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "f"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "d2f75b26-6bdd-4239-9d38-76078e5740a4",
-              "glyph": "g",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "g"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "c3398dc1-b258-46bd-8de3-7e12dc2f0457",
-              "glyph": "",
-              "isSymbol": false,
-              "action": {
-                "spacer": {}
-              },
-              "alternates": [],
-              "width": 3.3,
-              "glyphScale": 1,
-              "showsBackground": false
-            },
-            {
-              "id": "9db0142a-7b3b-428e-9b5e-6e9d587eaf07",
-              "glyph": "g",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "g"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "98466fd9-924e-4dea-9455-0979c0579cdd",
-              "glyph": "h",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "h"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "c232c382-fcdb-47bb-8946-d1197841e9a2",
-              "glyph": "j",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "j"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "973ebd91-dd9d-498f-b1d5-59dbaa9667c7",
-              "glyph": "k",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "k"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "a647c61e-91e5-4d54-89dd-c6caa4bd7258",
-              "glyph": "l",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "l"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "f87c490e-cf2f-4183-81d6-1cbafe03cefc",
-              "glyph": "",
-              "isSymbol": false,
-              "action": {
-                "spacer": {}
-              },
-              "alternates": [],
-              "width": 0.4,
-              "glyphScale": 1,
-              "showsBackground": false
-            }
-          ]
-        },
-        {
-          "id": "15c5a34a-ef70-4db2-a3d5-4561fb2560a9",
-          "persistsAcrossPlanes": false,
-          "keys": [
-            {
-              "id": "f7303910-0527-46b2-86ba-b85fc85fedc7",
-              "glyph": "shift",
-              "isSymbol": true,
-              "action": {
-                "shift": {}
-              },
-              "alternates": [],
-              "width": 1.4,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "b14f9638-70ba-4f43-b459-ade8f6704f0e",
-              "glyph": "",
-              "isSymbol": false,
-              "action": {
-                "spacer": {}
-              },
-              "alternates": [],
-              "width": 0.2,
-              "glyphScale": 1,
-              "showsBackground": false
-            },
-            {
-              "id": "8b05429b-fbf9-456b-89c4-13638632b96e",
-              "glyph": "z",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "z"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "b4ee4449-2449-48a9-b6b1-c653b983df88",
-              "glyph": "x",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "x"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "9a42ff18-9efa-4d1e-915a-3a52216f8230",
-              "glyph": "c",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "c"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "6918f235-806b-4926-89cd-3e2385cd8412",
-              "glyph": "v",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "v"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "45a302d6-162e-4c44-8a11-1064be9a4bb1",
-              "glyph": "",
-              "isSymbol": false,
-              "action": {
-                "spacer": {}
-              },
-              "alternates": [],
-              "width": 3.3,
-              "glyphScale": 1,
-              "showsBackground": false
-            },
-            {
-              "id": "50aa85a3-0887-42a4-ab55-f53bae5511ba",
-              "glyph": "v",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "v"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "d570d88e-a2ed-489f-be8a-36070e91abb3",
-              "glyph": "b",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "b"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "4a2c5a4a-6158-49af-a324-f530b9257988",
-              "glyph": "n",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "n"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "23adec21-80fe-428b-bd3c-eea94a9a4e07",
-              "glyph": "m",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "m"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "19077947-1119-4cf4-9fe5-d776423d81e6",
-              "glyph": "",
-              "isSymbol": false,
-              "action": {
-                "spacer": {}
-              },
-              "alternates": [],
-              "width": 0.2,
-              "glyphScale": 1,
-              "showsBackground": false
-            },
-            {
-              "id": "019a303f-41c1-44b3-8b21-e0d728e507b4",
-              "glyph": "delete.left",
-              "isSymbol": true,
-              "action": {
-                "backspace": {}
-              },
-              "alternates": [],
-              "width": 1.4,
-              "glyphScale": 1,
-              "showsBackground": true
-            }
-          ]
-        },
-        {
-          "id": "28a7a039-a26f-489d-88e1-718d281fc392",
-          "persistsAcrossPlanes": false,
-          "keys": [
-            {
-              "id": "0e8fbd57-721f-4294-ae09-759da00b9d6e",
-              "glyph": "123",
-              "isSymbol": false,
-              "action": {
-                "layoutSwitch": {
-                  "_0": [
-                    "page:numbers"
-                  ]
-                }
-              },
-              "alternates": [],
-              "width": 1.55,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "8d671f0e-8374-4c7b-9f3d-02782da51890",
-              "glyph": "globe",
-              "isSymbol": true,
-              "action": {
-                "nextKeyboard": {}
-              },
-              "alternates": [],
-              "width": 0.95,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "6744042d-093e-44f9-9c74-a32f36c156f1",
-              "glyph": "",
-              "isSymbol": false,
-              "action": {
-                "space": {}
-              },
-              "alternates": [],
-              "width": 10,
-              "glyphScale": 1,
-              "showsBackground": false
-            },
-            {
-              "id": "e507bd6d-a830-45db-b209-2e9c03f28648",
-              "glyph": "",
-              "isSymbol": false,
-              "action": {
-                "spacer": {}
-              },
-              "alternates": [],
-              "width": 1.9,
-              "glyphScale": 1,
-              "showsBackground": false
-            },
-            {
-              "id": "0f0693c0-50a3-4e91-a442-4ca7851d7a16",
-              "glyph": "return",
-              "isSymbol": false,
-              "action": {
-                "returnKey": {}
-              },
-              "alternates": [],
-              "width": 1.55,
-              "glyphScale": 1,
-              "showsBackground": true
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "page:numbers",
-      "role": "numbers",
-      "title": "123",
-      "rows": [
-        {
-          "id": "6857a271-15fd-4320-94d4-ab1adeb3338b",
-          "persistsAcrossPlanes": false,
-          "keys": [
-            {
-              "id": "fa3d357c-9c07-492b-bc5c-aa06a13a0a75",
-              "glyph": "1",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "1"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "fb8d866f-8925-463d-8dd0-6ffb35f91e78",
-              "glyph": "2",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "2"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "fee598ed-9f62-4945-b32e-4e3421dd657d",
-              "glyph": "3",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "3"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "353d1b0e-698c-4193-9020-46da842b8a25",
-              "glyph": "4",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "4"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "1dd7139f-d58b-4ab0-8500-b903937259da",
-              "glyph": "5",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "5"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "1a89801c-2590-4a05-aabe-6781599f5620",
-              "glyph": "",
-              "isSymbol": false,
-              "action": {
-                "spacer": {}
-              },
-              "alternates": [],
-              "width": 4.5,
-              "glyphScale": 1,
-              "showsBackground": false
-            },
-            {
-              "id": "c343976a-dd8c-4756-b42a-c0a47408ea8e",
-              "glyph": "6",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "6"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "fec42a38-beb6-4d0d-8302-72ee24ecad76",
-              "glyph": "7",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "7"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "64c995d6-58b0-4c91-834e-797f9c9ad1b2",
-              "glyph": "8",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "8"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "0383554f-6fe0-4d61-8f58-a7aa0b237f26",
-              "glyph": "9",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "9"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "93c08065-359a-43a5-b08f-f7087f07deb8",
-              "glyph": "0",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "0"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            }
-          ]
-        },
-        {
-          "id": "822d7951-5917-4018-90cd-6717c7d11ae9",
-          "persistsAcrossPlanes": false,
-          "keys": [
-            {
-              "id": "ea41f75a-dc47-4a0d-8afd-307d5e5a3e1f",
-              "glyph": "-",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "-"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "01d92e58-dd40-4b1c-b089-95c392159844",
-              "glyph": "/",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "/"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "fec6e0cb-5829-453f-a216-325ada586cda",
-              "glyph": ":",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": ":"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "a962eae4-ad26-4a9f-b3bc-044a5d0087d5",
-              "glyph": ";",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": ";"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "0ed004ed-8bf8-413e-bfae-eeb911dce117",
-              "glyph": "(",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "("
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "6d9d53c4-bd71-481a-bb11-d952735a196f",
-              "glyph": "",
-              "isSymbol": false,
-              "action": {
-                "spacer": {}
-              },
-              "alternates": [],
-              "width": 4.5,
-              "glyphScale": 1,
-              "showsBackground": false
-            },
-            {
-              "id": "9fb0496c-ffc6-420e-bb26-dfe509482a3e",
-              "glyph": ")",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": ")"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "11f192bd-ec01-4c8a-a5d5-14311eb46c9a",
-              "glyph": "$",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "$"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "e73c1cd1-041f-472d-9505-bf22531e2abe",
-              "glyph": "&",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "&"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "e8639761-2cce-417a-9b84-f64428d0d109",
-              "glyph": "@",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "@"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "1e39a3be-d8c0-450e-9f6f-08cfec40cc8a",
-              "glyph": "\"",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "\""
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            }
-          ]
-        },
-        {
-          "id": "3f5e46bd-ef64-482d-8be5-59df8593a958",
-          "persistsAcrossPlanes": false,
-          "keys": [
-            {
-              "id": "fb254a02-79d6-4d83-83f3-22d9a030fdd9",
-              "glyph": "#+=",
-              "isSymbol": false,
-              "action": {
-                "layoutSwitch": {
-                  "_0": [
-                    "page:symbols"
-                  ]
-                }
-              },
-              "alternates": [],
-              "width": 1.4,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "01239e48-e65c-408e-a32e-f2e01ad8fdc6",
-              "glyph": ".",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "."
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "80824889-8ef5-4abc-af97-930b701299f9",
-              "glyph": ",",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": ","
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "b2b250f8-4989-4e2d-b221-0391e1f56f6d",
-              "glyph": "?",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "?"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "7a491084-8163-41b6-b6ab-f29f5c92dbca",
-              "glyph": "",
-              "isSymbol": false,
-              "action": {
-                "spacer": {}
-              },
-              "alternates": [],
-              "width": 5,
-              "glyphScale": 1,
-              "showsBackground": false
-            },
-            {
-              "id": "7b1e00bc-a525-4f44-97e9-399f38cc987a",
-              "glyph": "!",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "!"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "6ccf8420-0f6f-40e5-8ed0-a104631e3cc8",
-              "glyph": "'",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "'"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "417d1954-46e0-4a42-811f-fc501e914ece",
-              "glyph": "delete.left",
-              "isSymbol": true,
-              "action": {
-                "backspace": {}
-              },
-              "alternates": [],
-              "width": 1.4,
-              "glyphScale": 1,
-              "showsBackground": true
-            }
-          ]
-        },
-        {
-          "id": "61db4afa-417e-499d-9ff5-7e7cf32a10b6",
-          "persistsAcrossPlanes": false,
-          "keys": [
-            {
-              "id": "9c77193d-3dd6-4c75-9800-5e47bcca67b8",
-              "glyph": "ABC",
-              "isSymbol": false,
-              "action": {
-                "layoutSwitch": {
-                  "_0": [
-                    "page:letters"
-                  ]
-                }
-              },
-              "alternates": [],
-              "width": 1.55,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "7d582017-ad49-4ce6-9e1c-faa1e7d6dc3d",
-              "glyph": "globe",
-              "isSymbol": true,
-              "action": {
-                "nextKeyboard": {}
-              },
-              "alternates": [],
-              "width": 0.95,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "24b00930-9ca3-47ec-9be2-4e9416811580",
-              "glyph": "",
-              "isSymbol": false,
-              "action": {
-                "space": {}
-              },
-              "alternates": [],
-              "width": 10,
-              "glyphScale": 1,
-              "showsBackground": false
-            },
-            {
-              "id": "a401b6a9-c896-426a-8697-58dae949f9b6",
-              "glyph": "",
-              "isSymbol": false,
-              "action": {
-                "spacer": {}
-              },
-              "alternates": [],
-              "width": 1.9,
-              "glyphScale": 1,
-              "showsBackground": false
-            },
-            {
-              "id": "5b8363cd-2d36-4c16-b808-55212a57b4f4",
-              "glyph": "return",
-              "isSymbol": false,
-              "action": {
-                "returnKey": {}
-              },
-              "alternates": [],
-              "width": 1.55,
-              "glyphScale": 1,
-              "showsBackground": true
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "page:symbols",
-      "role": "symbols",
-      "title": "#+=",
-      "rows": [
-        {
-          "id": "ce385991-62a5-4edf-b060-678502eb476e",
-          "persistsAcrossPlanes": false,
-          "keys": [
-            {
-              "id": "a78f58ee-28ec-4744-be07-c187540834f5",
-              "glyph": "[",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "["
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "73a70bfd-128b-4db2-a169-551561145e71",
-              "glyph": "]",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "]"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "8554c8d7-c5d8-40e8-891c-98a770e0ee98",
-              "glyph": "{",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "{"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "85cb994a-5f55-4dbb-9630-2e6dd020322f",
-              "glyph": "}",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "}"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "65e9c5ca-ffd8-46b0-b51e-a42c21741cbb",
-              "glyph": "#",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "#"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "ba4d9bc7-9675-4031-b32f-f57b380b3919",
-              "glyph": "",
-              "isSymbol": false,
-              "action": {
-                "spacer": {}
-              },
-              "alternates": [],
-              "width": 4.5,
-              "glyphScale": 1,
-              "showsBackground": false
-            },
-            {
-              "id": "caf387da-f489-4bf5-a660-5dd782dbcad5",
-              "glyph": "%",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "%"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "dc1d06ec-4854-43b7-830a-8c67f6018011",
-              "glyph": "^",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "^"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "7a3a7089-0a45-4451-bb7f-949969b47eca",
-              "glyph": "*",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "*"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "0357477c-927d-4bc4-92cc-5c422de48b10",
-              "glyph": "+",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "+"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "870cfbd0-e2d6-4058-8775-ed78e2288e3a",
-              "glyph": "=",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "="
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            }
-          ]
-        },
-        {
-          "id": "4f14b78e-9b62-4433-bd7e-a4af9e40b998",
-          "persistsAcrossPlanes": false,
-          "keys": [
-            {
-              "id": "a589dbd8-9c4d-4996-b017-3c2877117b36",
-              "glyph": "_",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "_"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "add63c70-8c24-46c0-8cea-c501cd386632",
-              "glyph": "\\",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "\\"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "e7c64ae7-6ddb-402d-a602-142bc13ddd1f",
-              "glyph": "|",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "|"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "fd66a708-234d-483a-8580-2884587ff8b1",
-              "glyph": "~",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "~"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "15bf75ba-baf0-4dbd-873e-3572b86f7332",
-              "glyph": "<",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "<"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "38aa2b8a-5fa0-40e5-95d5-4713734f2f07",
-              "glyph": "",
-              "isSymbol": false,
-              "action": {
-                "spacer": {}
-              },
-              "alternates": [],
-              "width": 4.5,
-              "glyphScale": 1,
-              "showsBackground": false
-            },
-            {
-              "id": "05dc74ad-a6d6-41a4-b049-768fb52febd4",
-              "glyph": ">",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": ">"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "56e84ba6-7e9c-4f7a-9797-6fe5441a888c",
-              "glyph": "€",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "€"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "61f77c93-65ac-4eef-9c86-9d74e823cce0",
-              "glyph": "£",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "£"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "653a3e07-cb8c-4143-8c87-67795dd91534",
-              "glyph": "¥",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "¥"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "9d023071-a8bd-409a-a5b5-d3882b1c0926",
-              "glyph": "•",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "•"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            }
-          ]
-        },
-        {
-          "id": "315a1541-05f7-4886-b913-52439f1f196d",
-          "persistsAcrossPlanes": false,
-          "keys": [
-            {
-              "id": "c33c77f3-ba3f-4f69-a06f-a7f37895ee42",
-              "glyph": "123",
-              "isSymbol": false,
-              "action": {
-                "layoutSwitch": {
-                  "_0": [
-                    "page:numbers"
-                  ]
-                }
-              },
-              "alternates": [],
-              "width": 1.4,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "10b9e689-9a94-4834-80fb-954d5b2e0e3e",
-              "glyph": ".",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "."
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "a7f41b4e-e1a3-412d-9c92-be0159d09c58",
-              "glyph": ",",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": ","
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "0640a00c-c465-4c9e-bc33-883012825ae9",
-              "glyph": "?",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "?"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "ee12aab8-360e-4f0d-a117-89e72eec1521",
-              "glyph": "",
-              "isSymbol": false,
-              "action": {
-                "spacer": {}
-              },
-              "alternates": [],
-              "width": 5,
-              "glyphScale": 1,
-              "showsBackground": false
-            },
-            {
-              "id": "d35ca20a-32b4-43fa-9e36-ea151680b738",
-              "glyph": "!",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "!"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "52e7adcb-3deb-45c4-a599-c5dd969cfca2",
-              "glyph": "'",
-              "isSymbol": false,
-              "action": {
-                "insert": {
-                  "_0": "'"
-                }
-              },
-              "alternates": [],
-              "width": 1,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "08b321a5-972b-4d3a-a545-bbd03601e4ca",
-              "glyph": "delete.left",
-              "isSymbol": true,
-              "action": {
-                "backspace": {}
-              },
-              "alternates": [],
-              "width": 1.4,
-              "glyphScale": 1,
-              "showsBackground": true
-            }
-          ]
-        },
-        {
-          "id": "c79cc919-f3b2-4050-97c0-add1318a871f",
-          "persistsAcrossPlanes": false,
-          "keys": [
-            {
-              "id": "2c603b28-d745-421f-a0d5-69d75b89b815",
-              "glyph": "ABC",
-              "isSymbol": false,
-              "action": {
-                "layoutSwitch": {
-                  "_0": [
-                    "page:letters"
-                  ]
-                }
-              },
-              "alternates": [],
-              "width": 1.55,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "71199fb9-c087-4e48-a852-452dd24ac428",
-              "glyph": "globe",
-              "isSymbol": true,
-              "action": {
-                "nextKeyboard": {}
-              },
-              "alternates": [],
-              "width": 0.95,
-              "glyphScale": 1,
-              "showsBackground": true
-            },
-            {
-              "id": "358fb8af-f545-4138-a0dd-06134b5f99b9",
-              "glyph": "",
-              "isSymbol": false,
-              "action": {
-                "space": {}
-              },
-              "alternates": [],
-              "width": 10,
-              "glyphScale": 1,
-              "showsBackground": false
-            },
-            {
-              "id": "1cd7e4d6-d0fb-4cf8-ae58-1ee1bf4eade5",
-              "glyph": "",
-              "isSymbol": false,
-              "action": {
-                "spacer": {}
-              },
-              "alternates": [],
-              "width": 1.9,
-              "glyphScale": 1,
-              "showsBackground": false
-            },
-            {
-              "id": "ae1d3a75-eac6-4f65-ad6d-5db25bc0e8ff",
-              "glyph": "return",
-              "isSymbol": false,
-              "action": {
-                "returnKey": {}
-              },
-              "alternates": [],
-              "width": 1.55,
-              "glyphScale": 1,
-              "showsBackground": true
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "advancedRows": [
-    {
-      "id": "735af7d0-45af-4ed0-ac5f-7b3474cca758",
-      "persistsAcrossPlanes": false,
-      "keys": [
-        {
-          "id": "f4273d9e-7ac4-4067-8b62-29cc3a6f47e4",
-          "glyph": "q",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "q"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "29c03a59-5879-48f8-a05b-1ef38c8d0a15",
-          "glyph": "w",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "w"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "923aae8b-898b-4cfb-90eb-a3ade58e1d68",
-          "glyph": "e",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "e"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "dee3312f-d101-4a2e-80ba-8e70779781e5",
-          "glyph": "r",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "r"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "792652d2-8bd8-4c97-9b9e-5972cf91f36b",
-          "glyph": "t",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "t"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "8c0cd07e-e300-42cf-948c-2102f3adc868",
-          "glyph": "",
-          "isSymbol": false,
-          "action": {
-            "spacer": {}
-          },
-          "alternates": [],
-          "width": 4.5,
-          "glyphScale": 1,
-          "showsBackground": false
-        },
-        {
-          "id": "061c7541-62cb-4459-9a0c-3df780f9fbf4",
-          "glyph": "y",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "y"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "b1eadd76-c3fc-49ba-8599-59ae2e3c0f4b",
-          "glyph": "u",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "u"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "118881a0-d90c-40d5-815e-f322a9f27ee4",
-          "glyph": "i",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "i"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "a6591954-4a21-4db8-a067-01c56837a908",
-          "glyph": "o",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "o"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "ddfe120c-8303-4214-81cc-6845296f2daf",
-          "glyph": "p",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "p"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        }
-      ]
-    },
-    {
-      "id": "d669ec3d-307c-4ab3-ba73-90af2fe5a4bc",
-      "persistsAcrossPlanes": false,
-      "keys": [
-        {
-          "id": "58a324f9-a706-4cf0-b0d5-fd220c931a62",
-          "glyph": "",
-          "isSymbol": false,
-          "action": {
-            "spacer": {}
-          },
-          "alternates": [],
-          "width": 0.4,
-          "glyphScale": 1,
-          "showsBackground": false
-        },
-        {
-          "id": "e0334593-0851-49e9-8dcf-2db768b5e22d",
-          "glyph": "a",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "a"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "9f429f2d-bf51-4fc6-a0c9-408577afc29a",
-          "glyph": "s",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "s"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "78db7403-f784-461b-ae69-d180d67b8882",
-          "glyph": "d",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "d"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "c8c6fb0d-5635-49e9-b3a7-0ce6f6ee8aef",
-          "glyph": "f",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "f"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "d2f75b26-6bdd-4239-9d38-76078e5740a4",
-          "glyph": "g",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "g"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "c3398dc1-b258-46bd-8de3-7e12dc2f0457",
-          "glyph": "",
-          "isSymbol": false,
-          "action": {
-            "spacer": {}
-          },
-          "alternates": [],
-          "width": 3.3,
-          "glyphScale": 1,
-          "showsBackground": false
-        },
-        {
-          "id": "9db0142a-7b3b-428e-9b5e-6e9d587eaf07",
-          "glyph": "g",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "g"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "98466fd9-924e-4dea-9455-0979c0579cdd",
-          "glyph": "h",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "h"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "c232c382-fcdb-47bb-8946-d1197841e9a2",
-          "glyph": "j",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "j"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "973ebd91-dd9d-498f-b1d5-59dbaa9667c7",
-          "glyph": "k",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "k"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "a647c61e-91e5-4d54-89dd-c6caa4bd7258",
-          "glyph": "l",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "l"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "f87c490e-cf2f-4183-81d6-1cbafe03cefc",
-          "glyph": "",
-          "isSymbol": false,
-          "action": {
-            "spacer": {}
-          },
-          "alternates": [],
-          "width": 0.4,
-          "glyphScale": 1,
-          "showsBackground": false
-        }
-      ]
-    },
-    {
-      "id": "15c5a34a-ef70-4db2-a3d5-4561fb2560a9",
-      "persistsAcrossPlanes": false,
-      "keys": [
-        {
-          "id": "f7303910-0527-46b2-86ba-b85fc85fedc7",
-          "glyph": "shift",
-          "isSymbol": true,
-          "action": {
-            "shift": {}
-          },
-          "alternates": [],
-          "width": 1.4,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "b14f9638-70ba-4f43-b459-ade8f6704f0e",
-          "glyph": "",
-          "isSymbol": false,
-          "action": {
-            "spacer": {}
-          },
-          "alternates": [],
-          "width": 0.2,
-          "glyphScale": 1,
-          "showsBackground": false
-        },
-        {
-          "id": "8b05429b-fbf9-456b-89c4-13638632b96e",
-          "glyph": "z",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "z"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "b4ee4449-2449-48a9-b6b1-c653b983df88",
-          "glyph": "x",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "x"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "9a42ff18-9efa-4d1e-915a-3a52216f8230",
-          "glyph": "c",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "c"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "6918f235-806b-4926-89cd-3e2385cd8412",
-          "glyph": "v",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "v"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "45a302d6-162e-4c44-8a11-1064be9a4bb1",
-          "glyph": "",
-          "isSymbol": false,
-          "action": {
-            "spacer": {}
-          },
-          "alternates": [],
-          "width": 3.3,
-          "glyphScale": 1,
-          "showsBackground": false
-        },
-        {
-          "id": "50aa85a3-0887-42a4-ab55-f53bae5511ba",
-          "glyph": "v",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "v"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "d570d88e-a2ed-489f-be8a-36070e91abb3",
-          "glyph": "b",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "b"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "4a2c5a4a-6158-49af-a324-f530b9257988",
-          "glyph": "n",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "n"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "23adec21-80fe-428b-bd3c-eea94a9a4e07",
-          "glyph": "m",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "m"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "19077947-1119-4cf4-9fe5-d776423d81e6",
-          "glyph": "",
-          "isSymbol": false,
-          "action": {
-            "spacer": {}
-          },
-          "alternates": [],
-          "width": 0.2,
-          "glyphScale": 1,
-          "showsBackground": false
-        },
-        {
-          "id": "019a303f-41c1-44b3-8b21-e0d728e507b4",
-          "glyph": "delete.left",
-          "isSymbol": true,
-          "action": {
-            "backspace": {}
-          },
-          "alternates": [],
-          "width": 1.4,
-          "glyphScale": 1,
-          "showsBackground": true
-        }
-      ]
-    },
-    {
-      "id": "28a7a039-a26f-489d-88e1-718d281fc392",
-      "persistsAcrossPlanes": false,
-      "keys": [
-        {
-          "id": "0e8fbd57-721f-4294-ae09-759da00b9d6e",
-          "glyph": "123",
-          "isSymbol": false,
-          "action": {
-            "layoutSwitch": {
-              "_0": [
-                "page:numbers"
-              ]
-            }
-          },
-          "alternates": [],
-          "width": 1.55,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "8d671f0e-8374-4c7b-9f3d-02782da51890",
-          "glyph": "globe",
-          "isSymbol": true,
-          "action": {
-            "nextKeyboard": {}
-          },
-          "alternates": [],
-          "width": 0.95,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "6744042d-093e-44f9-9c74-a32f36c156f1",
-          "glyph": "",
-          "isSymbol": false,
-          "action": {
-            "space": {}
-          },
-          "alternates": [],
-          "width": 10,
-          "glyphScale": 1,
-          "showsBackground": false
-        },
-        {
-          "id": "e507bd6d-a830-45db-b209-2e9c03f28648",
-          "glyph": "",
-          "isSymbol": false,
-          "action": {
-            "spacer": {}
-          },
-          "alternates": [],
-          "width": 1.9,
-          "glyphScale": 1,
-          "showsBackground": false
-        },
-        {
-          "id": "0f0693c0-50a3-4e91-a442-4ca7851d7a16",
-          "glyph": "return",
-          "isSymbol": false,
-          "action": {
-            "returnKey": {}
-          },
-          "alternates": [],
-          "width": 1.55,
-          "glyphScale": 1,
-          "showsBackground": true
-        }
-      ]
-    }
-  ],
-  "advancedNumberRows": [
-    {
-      "id": "6857a271-15fd-4320-94d4-ab1adeb3338b",
-      "persistsAcrossPlanes": false,
-      "keys": [
-        {
-          "id": "fa3d357c-9c07-492b-bc5c-aa06a13a0a75",
-          "glyph": "1",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "1"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "fb8d866f-8925-463d-8dd0-6ffb35f91e78",
-          "glyph": "2",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "2"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "fee598ed-9f62-4945-b32e-4e3421dd657d",
-          "glyph": "3",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "3"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "353d1b0e-698c-4193-9020-46da842b8a25",
-          "glyph": "4",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "4"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "1dd7139f-d58b-4ab0-8500-b903937259da",
-          "glyph": "5",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "5"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "1a89801c-2590-4a05-aabe-6781599f5620",
-          "glyph": "",
-          "isSymbol": false,
-          "action": {
-            "spacer": {}
-          },
-          "alternates": [],
-          "width": 4.5,
-          "glyphScale": 1,
-          "showsBackground": false
-        },
-        {
-          "id": "c343976a-dd8c-4756-b42a-c0a47408ea8e",
-          "glyph": "6",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "6"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "fec42a38-beb6-4d0d-8302-72ee24ecad76",
-          "glyph": "7",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "7"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "64c995d6-58b0-4c91-834e-797f9c9ad1b2",
-          "glyph": "8",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "8"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "0383554f-6fe0-4d61-8f58-a7aa0b237f26",
-          "glyph": "9",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "9"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "93c08065-359a-43a5-b08f-f7087f07deb8",
-          "glyph": "0",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "0"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        }
-      ]
-    },
-    {
-      "id": "822d7951-5917-4018-90cd-6717c7d11ae9",
-      "persistsAcrossPlanes": false,
-      "keys": [
-        {
-          "id": "ea41f75a-dc47-4a0d-8afd-307d5e5a3e1f",
-          "glyph": "-",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "-"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "01d92e58-dd40-4b1c-b089-95c392159844",
-          "glyph": "/",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "/"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "fec6e0cb-5829-453f-a216-325ada586cda",
-          "glyph": ":",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": ":"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "a962eae4-ad26-4a9f-b3bc-044a5d0087d5",
-          "glyph": ";",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": ";"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "0ed004ed-8bf8-413e-bfae-eeb911dce117",
-          "glyph": "(",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "("
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "6d9d53c4-bd71-481a-bb11-d952735a196f",
-          "glyph": "",
-          "isSymbol": false,
-          "action": {
-            "spacer": {}
-          },
-          "alternates": [],
-          "width": 4.5,
-          "glyphScale": 1,
-          "showsBackground": false
-        },
-        {
-          "id": "9fb0496c-ffc6-420e-bb26-dfe509482a3e",
-          "glyph": ")",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": ")"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "11f192bd-ec01-4c8a-a5d5-14311eb46c9a",
-          "glyph": "$",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "$"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "e73c1cd1-041f-472d-9505-bf22531e2abe",
-          "glyph": "&",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "&"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "e8639761-2cce-417a-9b84-f64428d0d109",
-          "glyph": "@",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "@"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "1e39a3be-d8c0-450e-9f6f-08cfec40cc8a",
-          "glyph": "\"",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "\""
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        }
-      ]
-    },
-    {
-      "id": "3f5e46bd-ef64-482d-8be5-59df8593a958",
-      "persistsAcrossPlanes": false,
-      "keys": [
-        {
-          "id": "fb254a02-79d6-4d83-83f3-22d9a030fdd9",
-          "glyph": "#+=",
-          "isSymbol": false,
-          "action": {
-            "layoutSwitch": {
-              "_0": [
-                "page:symbols"
-              ]
-            }
-          },
-          "alternates": [],
-          "width": 1.4,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "01239e48-e65c-408e-a32e-f2e01ad8fdc6",
-          "glyph": ".",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "."
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "80824889-8ef5-4abc-af97-930b701299f9",
-          "glyph": ",",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": ","
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "b2b250f8-4989-4e2d-b221-0391e1f56f6d",
-          "glyph": "?",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "?"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "7a491084-8163-41b6-b6ab-f29f5c92dbca",
-          "glyph": "",
-          "isSymbol": false,
-          "action": {
-            "spacer": {}
-          },
-          "alternates": [],
-          "width": 5,
-          "glyphScale": 1,
-          "showsBackground": false
-        },
-        {
-          "id": "7b1e00bc-a525-4f44-97e9-399f38cc987a",
-          "glyph": "!",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "!"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "6ccf8420-0f6f-40e5-8ed0-a104631e3cc8",
-          "glyph": "'",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "'"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "417d1954-46e0-4a42-811f-fc501e914ece",
-          "glyph": "delete.left",
-          "isSymbol": true,
-          "action": {
-            "backspace": {}
-          },
-          "alternates": [],
-          "width": 1.4,
-          "glyphScale": 1,
-          "showsBackground": true
-        }
-      ]
-    },
-    {
-      "id": "61db4afa-417e-499d-9ff5-7e7cf32a10b6",
-      "persistsAcrossPlanes": false,
-      "keys": [
-        {
-          "id": "9c77193d-3dd6-4c75-9800-5e47bcca67b8",
-          "glyph": "ABC",
-          "isSymbol": false,
-          "action": {
-            "layoutSwitch": {
-              "_0": [
-                "page:letters"
-              ]
-            }
-          },
-          "alternates": [],
-          "width": 1.55,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "7d582017-ad49-4ce6-9e1c-faa1e7d6dc3d",
-          "glyph": "globe",
-          "isSymbol": true,
-          "action": {
-            "nextKeyboard": {}
-          },
-          "alternates": [],
-          "width": 0.95,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "24b00930-9ca3-47ec-9be2-4e9416811580",
-          "glyph": "",
-          "isSymbol": false,
-          "action": {
-            "space": {}
-          },
-          "alternates": [],
-          "width": 10,
-          "glyphScale": 1,
-          "showsBackground": false
-        },
-        {
-          "id": "a401b6a9-c896-426a-8697-58dae949f9b6",
-          "glyph": "",
-          "isSymbol": false,
-          "action": {
-            "spacer": {}
-          },
-          "alternates": [],
-          "width": 1.9,
-          "glyphScale": 1,
-          "showsBackground": false
-        },
-        {
-          "id": "5b8363cd-2d36-4c16-b808-55212a57b4f4",
-          "glyph": "return",
-          "isSymbol": false,
-          "action": {
-            "returnKey": {}
-          },
-          "alternates": [],
-          "width": 1.55,
-          "glyphScale": 1,
-          "showsBackground": true
-        }
-      ]
-    }
-  ],
-  "advancedSymbolRows": [
-    {
-      "id": "ce385991-62a5-4edf-b060-678502eb476e",
-      "persistsAcrossPlanes": false,
-      "keys": [
-        {
-          "id": "a78f58ee-28ec-4744-be07-c187540834f5",
-          "glyph": "[",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "["
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "73a70bfd-128b-4db2-a169-551561145e71",
-          "glyph": "]",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "]"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "8554c8d7-c5d8-40e8-891c-98a770e0ee98",
-          "glyph": "{",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "{"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "85cb994a-5f55-4dbb-9630-2e6dd020322f",
-          "glyph": "}",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "}"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "65e9c5ca-ffd8-46b0-b51e-a42c21741cbb",
-          "glyph": "#",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "#"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "ba4d9bc7-9675-4031-b32f-f57b380b3919",
-          "glyph": "",
-          "isSymbol": false,
-          "action": {
-            "spacer": {}
-          },
-          "alternates": [],
-          "width": 4.5,
-          "glyphScale": 1,
-          "showsBackground": false
-        },
-        {
-          "id": "caf387da-f489-4bf5-a660-5dd782dbcad5",
-          "glyph": "%",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "%"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "dc1d06ec-4854-43b7-830a-8c67f6018011",
-          "glyph": "^",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "^"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "7a3a7089-0a45-4451-bb7f-949969b47eca",
-          "glyph": "*",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "*"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "0357477c-927d-4bc4-92cc-5c422de48b10",
-          "glyph": "+",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "+"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "870cfbd0-e2d6-4058-8775-ed78e2288e3a",
-          "glyph": "=",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "="
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        }
-      ]
-    },
-    {
-      "id": "4f14b78e-9b62-4433-bd7e-a4af9e40b998",
-      "persistsAcrossPlanes": false,
-      "keys": [
-        {
-          "id": "a589dbd8-9c4d-4996-b017-3c2877117b36",
-          "glyph": "_",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "_"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "add63c70-8c24-46c0-8cea-c501cd386632",
-          "glyph": "\\",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "\\"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "e7c64ae7-6ddb-402d-a602-142bc13ddd1f",
-          "glyph": "|",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "|"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "fd66a708-234d-483a-8580-2884587ff8b1",
-          "glyph": "~",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "~"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "15bf75ba-baf0-4dbd-873e-3572b86f7332",
-          "glyph": "<",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "<"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "38aa2b8a-5fa0-40e5-95d5-4713734f2f07",
-          "glyph": "",
-          "isSymbol": false,
-          "action": {
-            "spacer": {}
-          },
-          "alternates": [],
-          "width": 4.5,
-          "glyphScale": 1,
-          "showsBackground": false
-        },
-        {
-          "id": "05dc74ad-a6d6-41a4-b049-768fb52febd4",
-          "glyph": ">",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": ">"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "56e84ba6-7e9c-4f7a-9797-6fe5441a888c",
-          "glyph": "€",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "€"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "61f77c93-65ac-4eef-9c86-9d74e823cce0",
-          "glyph": "£",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "£"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "653a3e07-cb8c-4143-8c87-67795dd91534",
-          "glyph": "¥",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "¥"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "9d023071-a8bd-409a-a5b5-d3882b1c0926",
-          "glyph": "•",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "•"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        }
-      ]
-    },
-    {
-      "id": "315a1541-05f7-4886-b913-52439f1f196d",
-      "persistsAcrossPlanes": false,
-      "keys": [
-        {
-          "id": "c33c77f3-ba3f-4f69-a06f-a7f37895ee42",
-          "glyph": "123",
-          "isSymbol": false,
-          "action": {
-            "layoutSwitch": {
-              "_0": [
-                "page:numbers"
-              ]
-            }
-          },
-          "alternates": [],
-          "width": 1.4,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "10b9e689-9a94-4834-80fb-954d5b2e0e3e",
-          "glyph": ".",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "."
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "a7f41b4e-e1a3-412d-9c92-be0159d09c58",
-          "glyph": ",",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": ","
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "0640a00c-c465-4c9e-bc33-883012825ae9",
-          "glyph": "?",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "?"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "ee12aab8-360e-4f0d-a117-89e72eec1521",
-          "glyph": "",
-          "isSymbol": false,
-          "action": {
-            "spacer": {}
-          },
-          "alternates": [],
-          "width": 5,
-          "glyphScale": 1,
-          "showsBackground": false
-        },
-        {
-          "id": "d35ca20a-32b4-43fa-9e36-ea151680b738",
-          "glyph": "!",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "!"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "52e7adcb-3deb-45c4-a599-c5dd969cfca2",
-          "glyph": "'",
-          "isSymbol": false,
-          "action": {
-            "insert": {
-              "_0": "'"
-            }
-          },
-          "alternates": [],
-          "width": 1,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "08b321a5-972b-4d3a-a545-bbd03601e4ca",
-          "glyph": "delete.left",
-          "isSymbol": true,
-          "action": {
-            "backspace": {}
-          },
-          "alternates": [],
-          "width": 1.4,
-          "glyphScale": 1,
-          "showsBackground": true
-        }
-      ]
-    },
-    {
-      "id": "c79cc919-f3b2-4050-97c0-add1318a871f",
-      "persistsAcrossPlanes": false,
-      "keys": [
-        {
-          "id": "2c603b28-d745-421f-a0d5-69d75b89b815",
-          "glyph": "ABC",
-          "isSymbol": false,
-          "action": {
-            "layoutSwitch": {
-              "_0": [
-                "page:letters"
-              ]
-            }
-          },
-          "alternates": [],
-          "width": 1.55,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "71199fb9-c087-4e48-a852-452dd24ac428",
-          "glyph": "globe",
-          "isSymbol": true,
-          "action": {
-            "nextKeyboard": {}
-          },
-          "alternates": [],
-          "width": 0.95,
-          "glyphScale": 1,
-          "showsBackground": true
-        },
-        {
-          "id": "358fb8af-f545-4138-a0dd-06134b5f99b9",
-          "glyph": "",
-          "isSymbol": false,
-          "action": {
-            "space": {}
-          },
-          "alternates": [],
-          "width": 10,
-          "glyphScale": 1,
-          "showsBackground": false
-        },
-        {
-          "id": "1cd7e4d6-d0fb-4cf8-ae58-1ee1bf4eade5",
-          "glyph": "",
-          "isSymbol": false,
-          "action": {
-            "spacer": {}
-          },
-          "alternates": [],
-          "width": 1.9,
-          "glyphScale": 1,
-          "showsBackground": false
-        },
-        {
-          "id": "ae1d3a75-eac6-4f65-ad6d-5db25bc0e8ff",
-          "glyph": "return",
-          "isSymbol": false,
-          "action": {
-            "returnKey": {}
-          },
-          "alternates": [],
-          "width": 1.55,
-          "glyphScale": 1,
-          "showsBackground": true
-        }
-      ]
-    }
-  ],
-  "hideBottomRow": true,
-  "removedFunctionKeys": [
-    "shift",
-    "backspace",
-    "numbersPlane",
-    "space",
-    "returnKey"
-  ],
+  "removedPageKeys": {},
   "inheritsThemeKeyPaint": true,
-  "accentLongPress": true,
   "symbolLongPress": false,
-  "longPressPresetConfigured": true
+  "inputSourceID": "custom-duo-split",
+  "accentLongPress": true,
+  "hideBottomRow": true,
+  "bottomTrailingKeys": []
 }
