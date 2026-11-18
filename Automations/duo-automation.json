@@ -99,6 +99,15 @@
             "comparison": "atLeast",
             "upper": null,
             "field": "interface.width"
+          },
+          {
+            "field": "interface.orientation",
+            "version": 1,
+            "value": "landscape",
+            "hysteresis": 0,
+            "id": "107106f4-fc6f-4c1c-b3cd-ed6cc34e94cd",
+            "comparison": "equals",
+            "upper": null
           }
         ],
         "mode": "all"
@@ -106,6 +115,48 @@
       "cooldownSeconds": 1,
       "kind": "state",
       "schemaVersion": 1
+    },
+    {
+      "kind": "state",
+      "actions": [
+        {
+          "id": "a9902cc3-b26e-4afc-9c39-f7019315d0bd",
+          "kind": "set",
+          "version": 1,
+          "target": "layout.split",
+          "value": false
+        }
+      ],
+      "trigger": "keyboard.open",
+      "cooldownSeconds": 1,
+      "id": "735E0D10-392B-4215-B70A-341D64861992",
+      "name": "Duo — Laptop portrait (link Duo Laptop profile)",
+      "enabled": false,
+      "triggerVersion": 1,
+      "schemaVersion": 1,
+      "conditions": {
+        "mode": "all",
+        "items": [
+          {
+            "field": "interface.width",
+            "version": 1,
+            "value": 700,
+            "hysteresis": 24,
+            "id": "ADA229F3-80BD-45E9-BABA-3E569DF1A58E",
+            "comparison": "atLeast",
+            "upper": null
+          },
+          {
+            "field": "interface.orientation",
+            "version": 1,
+            "value": "portrait",
+            "hysteresis": 0,
+            "id": "04C70568-9987-4D8F-9D45-46C9CC441F85",
+            "comparison": "equals",
+            "upper": null
+          }
+        ]
+      }
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
-  "version": "duo-c57f5d499ce26eecdfdf",
+  "version": "duo-03d58419c1668a949010",
   "layouts": [
     {
       "id": "duo-split",
       "name": "Duo Split — Full-width space",
-      "version": "duo-c57f5d499ce26eecdfdf",
+      "version": "duo-03d58419c1668a949010",
       "platform": "ios",
       "asset": {
         "path": "duo-split.clinklayout",
-        "url": "https://github.com/stivy73/clink-duo/releases/download/duo-c57f5d499ce26eecdfdf/duo-split.clinklayout",
+        "url": "https://github.com/stivy73/clink-duo/releases/download/duo-03d58419c1668a949010/duo-split.clinklayout",
         "sha256": "0f8a445e16f71b88e26fe6083efefea8f4d3a6c2319a4770ffd9efd4c3da00bc",
         "byteCount": 107651
       }
@@ -18,11 +18,11 @@
     {
       "id": "duo-graphite",
       "name": "Duo Graphite",
-      "version": "duo-c57f5d499ce26eecdfdf",
+      "version": "duo-03d58419c1668a949010",
       "platform": "ios",
       "asset": {
         "path": "duo-graphite.clinktheme",
-        "url": "https://github.com/stivy73/clink-duo/releases/download/duo-c57f5d499ce26eecdfdf/duo-graphite.clinktheme",
+        "url": "https://github.com/stivy73/clink-duo/releases/download/duo-03d58419c1668a949010/duo-graphite.clinktheme",
         "sha256": "0304a4cf50565f84fb67e7b2e6e2a17b9e7a37a5e688b586df7bc381af365592",
         "byteCount": 1604
       }
@@ -32,23 +32,35 @@
     {
       "id": "duo-aperto",
       "name": "Duo Aperto",
-      "version": "duo-c57f5d499ce26eecdfdf",
+      "version": "duo-03d58419c1668a949010",
       "platform": "ios",
       "asset": {
         "path": "duo-aperto.clinkprofile",
-        "url": "https://github.com/stivy73/clink-duo/releases/download/duo-c57f5d499ce26eecdfdf/duo-aperto.clinkprofile",
+        "url": "https://github.com/stivy73/clink-duo/releases/download/duo-03d58419c1668a949010/duo-aperto.clinkprofile",
         "sha256": "0429d51f8a2af73558ac7d06b5e1453dccdd8acc50ae9765c21741915c6b60fe",
         "byteCount": 149277
       }
     },
     {
+      "id": "duo-laptop",
+      "name": "Duo Laptop",
+      "version": "duo-03d58419c1668a949010",
+      "platform": "ios",
+      "asset": {
+        "path": "duo-laptop.clinkprofile",
+        "url": "https://github.com/stivy73/clink-duo/releases/download/duo-03d58419c1668a949010/duo-laptop.clinkprofile",
+        "sha256": "58f356bc039dbc7cc4c085911f64d13e4ed3d86e91c85e2630c23f3457f0a56b",
+        "byteCount": 150520
+      }
+    },
+    {
       "id": "duo-stivy",
       "name": "Duo Stivy",
-      "version": "duo-c57f5d499ce26eecdfdf",
+      "version": "duo-03d58419c1668a949010",
       "platform": "ios",
       "asset": {
         "path": "duo-stivy.clinkprofile",
-        "url": "https://github.com/stivy73/clink-duo/releases/download/duo-c57f5d499ce26eecdfdf/duo-stivy.clinkprofile",
+        "url": "https://github.com/stivy73/clink-duo/releases/download/duo-03d58419c1668a949010/duo-stivy.clinkprofile",
         "sha256": "ba3ef76df3f34aeb4a9b16c9b1f8b53b70085a8b681506c40beb08692cffd95d",
         "byteCount": 149277
       }

@@ -25,5 +25,5 @@ jobs:
           if gh release view "$TAG" >/dev/null 2>&1; then
             gh release edit "$TAG" --latest
           else
-            gh release create "$TAG" Layouts/*.clinklayout Themes/*.clinktheme Profiles/*.clinkprofile Automations/*.json manifest.json --target "$GITHUB_SHA" --title "Clink Duo packs" --notes "Duo layout with extended space bar, graphite theme, independent open and closed profiles, and portable adaptive automation. See README for profile-first rule setup." --latest
+            gh release create "$TAG" Layouts/*.clinklayout Themes/*.clinktheme Profiles/*.clinkprofile Automations/*.json manifest.json --target "$GITHUB_SHA" --title "Clink Duo packs" --notes "Duo layout with extended space bar, graphite theme, independent normal, split and laptop profiles, and width/orientation adaptive automation. See README for profile-first rule setup." --latest
           fi
